@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="widht=device-width, initial-scale=1.0">
+	<title>Movies Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/lightslider.css">
+	<link rel="shortcut icon" href="images/fav icon.png">
+	<!--script src="https://kit.fontawesome.com/945d6b640c.js" crossorigin="anonymous"></script-->
+	<script src="js/JQuery3.3.1.js"></script>
+	<script src="js/lightslider.js"></script>
+</head>
+<body>
+
+	<nav>
+		<a href="#" class="logo">
+			<img src="images/logo.png">
+		</a>
+
+		<input type="checkbox" class="menu-btn" id="menu-btn">
+		<label class="menu-icon" for="menu-btn">
+			<span class="nav-icon"></span>
+		</label>
+
+		<ul class="menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Movies</a></li>
+			<li><a href="#">TV Shows</a></li>
+			<li><a href="#">Hollywood</a></li>
+			<li><a href="#">Herror</a></li>
+		</ul>
+
+		<div class="search">
+			<input type="text" placeholder="Find Your Favourite Movies">
+			<i class="fas fa-search"></i>
+		</div>
+	</nav>
+
+	<section id="main">
+		<h1 class="showcase-heading">Showcase</h1>
+		<ul id="autoWidth" class="cs-hidden">
+			<li class="item-a">
+				<div class="showcase-box">
+					<img src="images/s-1.jpg">
+				</div>
+			</li>
+			<li class="item-b">
+				<div class="showcase-box">
+					<img src="images/s-2.jpg">
+				</div>
+			</li>
+			<li class="item-c">
+				<div class="showcase-box">
+					<img src="images/s-3.jpg">
+				</div>
+			</li>
+			<li class="item-d">
+				<div class="showcase-box">
+					<img src="images/s-4.jpg">
+				</div>
+			</li>
+			<li class="item-e">
+				<div class="showcase-box">
+					<img src="images/s-5.png">
+				</div>
+			</li>
+		</ul>
+	</section>
+
+	<section id="latest">
+		<h2 class="latest-heading">Latest Movies</h2>
+		<ul id="autoWidth" class="cs-hidden">
+			<li class="item-a">
+				<div class="latest-box">
+					<div class="latest-b-img">
+						<img src="images/m-1.jpg">
+					</div>
+					<div class="latest-b-text">
+						<strong>Kin 2018</strong>
+						<p>Action Movie</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-b">
+				<div class="latest-box">
+					<div class="latest-b-img">
+						<img src="images/m-2.jpg">
+					</div>
+					<div class="latest-b-text">
+						<strong>Train to Busan 2016</strong>
+						<p>Action Movie</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-c">
+				<div class="latest-box">
+					<div class="latest-b-img">
+						<img src="images/m-3.jpg">
+					</div>
+					<div class="latest-b-text">
+						<strong>Inception 2016</strong>
+						<p>Action Movie</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-d">
+				<div class="latest-box">
+					<div class="latest-b-img">
+						<img src="images/m-4.jpg">
+					</div>
+					<div class="latest-b-text">
+						<strong>Iron Man 3 2013</strong>
+						<p>Action Movie</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-e">
+				<div class="latest-box">
+					<div class="latest-b-img">
+						<img src="images/m-5.jpg">
+					</div>
+					<div class="latest-b-text">
+						<strong>Venom 2018</strong>
+						<p>Action Movie</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-f">
+				<div class="latest-box">
+					<div class="latest-b-img">
+						<img src="images/m-6.jpg">
+					</div>
+					<div class="latest-b-text">
+						<strong>Aquaman 2018</strong>
+						<p>Action Movie</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-g">
+				<div class="latest-box">
+					<div class="latest-b-img">
+						<img src="images/m-7.jpeg">
+					</div>
+					<div class="latest-b-text">
+						<strong>Jungle Cruise 2021</strong>
+						<p>Action Movie</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</section>
+
+	<div class="movies-heading">
+		<h2>Movies</h2>
+	</div>
+
+	<section id="movies-list">
+		<div class="movies-box">
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<img src="images/m-1.jpg">
+			</div>
+			<a href="#">Kin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+		</div>
+		<div class="movies-box">
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<img src="images/m-2.jpg">
+			</div>
+			<a href="#">Train to Busan (2016) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+		</div>
+		<div class="movies-box">
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<img src="images/m-3.jpg">
+			</div>
+			<a href="#">Inception (2016) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+		</div>
+		<div class="movies-box">
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<img src="images/m-4.jpg">
+			</div>
+			<a href="#">Iron Man 3 (2013) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+		</div>
+		<div class="movies-box">
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<img src="images/m-5.jpg">
+			</div>
+			<a href="#">Venom (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+		</div>
+		<div class="movies-box">
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<img src="images/m-6.jpg">
+			</div>
+			<a href="#">Aquaman (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+		</div>
+		<div class="movies-box">
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<img src="images/m-7.jpeg">
+			</div>
+			<a href="#">Jungle Cruise (2021) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+		</div>
+		<div class="movies-box">
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<img src="images/l-8.jpg">
+			</div>
+			<a href="#">Venom 2 (2021) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+		</div>
+	</section>
+
+	<div class="btns">
+		<a href="#">Previous</a>
+		<a href="#">Next</a>
+	</div>
+
+	<footer>
+		<p></p>
+		<p>Copyright 2021 - Tarik Saidi</p>
+	</footer>
+
+	<script>
+		$(document).ready(function() {
+    		$('#autoWidth,#autoWidth2').lightSlider({
+        		autoWidth:true,
+        		loop:true,
+        		onSliderLoad: function() {
+            		$('#autoWidth,autoWidth2').removeClass('cS-hidden');
+        		} 
+    		});  
+  		});
+	</script>
+
+</body>
+</html>
